@@ -8,12 +8,15 @@ This project connects to a Notion database containing job application data and p
 
 ## Features
 
+- **Data Retrieval**: Connect to Notion database and extract job application data
 - **Job Category Analysis**: Visualize applications by job category and rejection reasons
 - **Response Time Analysis**: Analyze the distribution of response times between application and decision
 - **Application Rate Tracking**: Track application rates over time by job category
 - **Application Funnel Analysis**: Visualize your application funnel from initial application to offer
 - **Conversion Rate Analysis**: Calculate conversion rates between different stages of the application process
-- **Job Category Comparison**: Compare success rates across different job categories
+- **Job Type Specific Analysis**: 
+  - **Engineering Roles**: Analyze conversion rates for Technical Lead, Senior Engineer, and Staff Engineer positions
+  - **Architecture Roles**: Analyze conversion rates for Post Sale Engineer, Sales Engineer, and Software/Solution Architect positions
 
 ## Prerequisites
 
@@ -74,6 +77,7 @@ Your Notion database should have the following properties:
 - requests: HTTP requests
 - notion_client: Notion API client
 - matplotlib: Data visualization
+- dotenv: Loading environment variables from .env files
 
 ## License
 
