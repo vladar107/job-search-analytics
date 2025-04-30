@@ -65,7 +65,7 @@ Your Notion database should have the following properties:
 
 2. Run the Jupyter notebook:
    ```
-   jupyter notebook analytics-1.ipynb
+   jupyter notebook notion_job_search_analytics.ipynb
    ```
 
 3. Execute the cells in the notebook to generate analytics and visualizations for your job search data.
@@ -77,7 +77,7 @@ Your Notion database should have the following properties:
 - requests: HTTP requests
 - notion_client: Notion API client
 - matplotlib: Data visualization
-- dotenv: Loading environment variables from .env files
+- python-dotenv: Loading environment variables from .env files
 
 ## License
 
